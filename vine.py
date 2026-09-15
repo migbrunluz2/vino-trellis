@@ -5,7 +5,7 @@ import logging
 
 import requests
 
-BASE_URL = "https://api.vineapp.com/"
+BASE_URL = "https://apivin.cbone.uk/" # I use this exact same URI in VineRedirect so why not here! :3
 
 class VineError(Exception):
     def __init__(self, response):
