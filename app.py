@@ -14,7 +14,7 @@ def cached(time=None):
     def _cached(f):
         @functools.wraps(f)
         def _f(*args, **kwargs):
-            key = "%s__%s__%s" % (f.func_name, args, kwargs)
+            key = "%s__%s__%s" % (f.__name__, args, kwargs)
             data = mc.get(key)
             if not data:
                 data = f(*args, **kwargs)
