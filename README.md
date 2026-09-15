@@ -21,8 +21,8 @@ Setup your Trellis username and password (in order to have a Trellis account you
 
 On Windows,you use
 
-set VINO_USER="your_username_here"
-set VINO_PASSWORD="your_password_here"
+set VINO_USER=your_username_here
+set VINO_PASSWORD=your_password_here
 
 Start the server
 
